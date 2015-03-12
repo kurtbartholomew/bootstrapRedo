@@ -86,8 +86,25 @@ body {
 	font-size: 32px;
 }
 
-{
+/* blog.html */
 
+.about .fa-rocket {
+	font-size: 64px;
+}
+
+.posts h1 a {
+	color: #444;
+}
+
+.meta {
+	margin-bottom: 1em;
+	color: #777;
+}
+.meta li {
+	border-right: 1px solid #ddd;
+}
+.meta li:last-child {
+	border-right: none;
 }
 
 /* Media Queries */
