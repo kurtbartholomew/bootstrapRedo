@@ -5,6 +5,7 @@ html {
 
 body {
 	margin-bottom: 220px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .footer {
@@ -25,16 +26,72 @@ body {
 	color: #d8e6f3;
 }
 
+.container {
+	max-width: 960px;
+}
+
+.well {
+	background-color: transparent;
+}
+
+.lead {
+	color: #555;
+}
+
+.btn-lg {
+	padding: 14px 20px;
+	margin-right: 20px;
+}
+
+/* Navigation */
+
+.navbar {
+	background-color: rgb(51,122,183);
+}
+
+.navbar a {
+	color: #d8e6f3;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+	background-color: #204d74;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+	background-color: #204d74;
+	color: #fff;
+}
+
+.navbar a:hover {
+	color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #d8e6f3;
+}
+
+@media only screen and (max-width: 768px) {
+	.dropdown-menu>li>a {
+		color: #d8e6f3;
+	}
+}
+
+
 /* index.html */
 .features .glyphicon {
 	font-size: 32px;
 }
 
-.container {
-	max-width: 960px;
+{
+
 }
 
 /* Media Queries */
+
 
 @media only screen and (max-width: 768px) {
 	body { margin-bottom: 400px; }
